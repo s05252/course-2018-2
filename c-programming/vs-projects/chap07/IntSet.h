@@ -9,7 +9,7 @@ typedef struct {
 
 int Initialize(IntSet *s, int max);
 
-int IsMember(IntSet *s, int n);
+int IsMember(const IntSet *s, int n);
 
 void Add(IntSet *s, int n);
 
@@ -33,5 +33,5 @@ void Print(const IntSet *s);
 
 void PrintLn(const IntSet *s);
 
-void Terminate(IntSet *s)
-#endif
+void Terminate(IntSet *s);
+#endif 
